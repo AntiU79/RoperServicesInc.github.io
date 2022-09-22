@@ -1,0 +1,45 @@
+body {
+	height: 100%;
+	width: 100%;
+   font-family: sans-serif;
+     background: url(sunset.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1  {
+   color: yellow;
+	font-size: 3rem;
+}
+hr {
+	border-color: yellow;
+	background-size: 5px;
+	max-width: 200px;
+}
+.buffer {
+	height: 50px;
+}
+
+.container {
+	margin-top: 10rem;
+
+}
+.btn   {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+.btn-info {
+	background-color: orangered;
+	border-color: black;
+	border-width: 2px;
+}
+.btn-info:hover {
+	background-color: steelblue;
+	border-width: 5px;
+	border-color: yellow;
+}
+.btn-xl {
+   padding: 1rem 2rem;
+}
